@@ -1,9 +1,4 @@
-//
-//  Extensions.swift
-//  BuildTinderApp
-//
-//  Created by Ghaiath Alhereh on 27.11.22.
-//
+
 
 import SwiftUI
 

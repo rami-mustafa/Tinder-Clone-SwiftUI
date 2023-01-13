@@ -1,9 +1,3 @@
-//
-//  RoundedCorner.swift
-//  BuildTinderApp
-//
-//  Created by Nikita Thomas on 4/10/21.
-//
 
 import SwiftUI
 
