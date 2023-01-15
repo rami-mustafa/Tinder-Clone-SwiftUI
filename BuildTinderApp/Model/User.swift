@@ -1,9 +1,4 @@
-//
-//  User.swift
-//  BuildTinderApp
-//
-//  Created by Ghaiath Alhereh on 03.01.23.
-//
+
 
 import Foundation
 

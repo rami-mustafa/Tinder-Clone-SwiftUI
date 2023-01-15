@@ -7,7 +7,7 @@ struct MainView: View {
     func correctViewForState() -> some View{
         switch appState.selectedTab{
         case .fire:
-            let view = Text("fire")
+            let view = HomeView()
             return AnyView(view)
         case .star:
             let view = MatchesView()

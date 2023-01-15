@@ -1,9 +1,3 @@
-//
-//  Subscription.swift
-//  BuildTinderApp
-//
-//  Created by Ghaiath Alhereh on 07.01.23.
-//
 
 import Foundation
 

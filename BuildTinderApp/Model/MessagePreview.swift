@@ -1,9 +1,4 @@
-//
-//  MessageThread.swift
-//  BuildTinderApp
-//
-//  Created by Ghaiath Alhereh on 30.12.22.
-//
+
 
 import Foundation
 // mesajlaşma kısmı görüntü yeri

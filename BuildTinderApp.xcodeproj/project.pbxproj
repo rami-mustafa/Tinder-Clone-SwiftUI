@@ -22,11 +22,14 @@
 		38258F85295F78DF000C843C /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38258F84295F78DF000C843C /* MessageView.swift */; };
 		382B9E95295CC2680077CE34 /* ProfileSwipePromo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382B9E94295CC2680077CE34 /* ProfileSwipePromo.swift */; };
 		3840E3912968957500F416E6 /* PurchasePopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3840E3902968957500F416E6 /* PurchasePopup.swift */; };
+		3842CEEE296ED5A4008BC975 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3842CEED296ED5A4008BC975 /* HomeView.swift */; };
 		384B59F429329008006A1977 /* BuildTinderAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384B59F329329008006A1977 /* BuildTinderAppApp.swift */; };
 		384B59F629329008006A1977 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384B59F529329008006A1977 /* ContentView.swift */; };
 		384B59F82932900B006A1977 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 384B59F72932900B006A1977 /* Assets.xcassets */; };
 		384B59FB2932900B006A1977 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 384B59FA2932900B006A1977 /* Preview Assets.xcassets */; };
 		384B5A02293293E4006A1977 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384B5A01293293E4006A1977 /* MainView.swift */; };
+		3868136F296D80DF008CDC93 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868136E296D80DF008CDC93 /* CircleButtonView.swift */; };
+		38681371296DAE94008CDC93 /* CardStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38681370296DAE94008CDC93 /* CardStack.swift */; };
 		386A218F29616D1800022531 /* MessageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386A218E29616D1800022531 /* MessageListView.swift */; };
 		386A219129616DFC00022531 /* MessageListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386A219029616DFC00022531 /* MessageListVM.swift */; };
 		386A21932961852700022531 /* MessageRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386A21922961852700022531 /* MessageRowView.swift */; };
@@ -34,9 +37,12 @@
 		386A21972964949000022531 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386A21962964949000022531 /* User.swift */; };
 		386A21992964976500022531 /* LikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386A21982964976500022531 /* LikeView.swift */; };
 		386A219C2967062A00022531 /* PersonSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386A219B2967062A00022531 /* PersonSquare.swift */; };
+		388513F5296B1E6000F5D650 /* CardImageScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388513F4296B1E6000F5D650 /* CardImageScroller.swift */; };
 		388AA04E296078CF0092DACD /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388AA04D296078CF0092DACD /* ChatView.swift */; };
 		388AA05029607FF50092DACD /* ChatViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388AA04F29607FF50092DACD /* ChatViewHeader.swift */; };
 		38BC21082933ED920068D2D3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC21072933ED920068D2D3 /* Extensions.swift */; };
+		38C67DBB296C7ECC00893923 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C67DBA296C7ECC00893923 /* CardView.swift */; };
+		38C67DBD296C932200893923 /* FullScreenCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C67DBC296C932200893923 /* FullScreenCardView.swift */; };
 		38E60BCA294A09C70049B700 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E60BC9294A09C70049B700 /* ProfileView.swift */; };
 		38E60BE7294B91150049B700 /* RoundedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E60BE6294B91150049B700 /* RoundedImage.swift */; };
 		38E60BEA294B94930049B700 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 38E60BE9294B94930049B700 /* Kingfisher */; };
@@ -58,12 +64,15 @@
 		38258F84295F78DF000C843C /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		382B9E94295CC2680077CE34 /* ProfileSwipePromo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSwipePromo.swift; sourceTree = "<group>"; };
 		3840E3902968957500F416E6 /* PurchasePopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasePopup.swift; sourceTree = "<group>"; };
+		3842CEED296ED5A4008BC975 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		384B59F029329008006A1977 /* BuildTinderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuildTinderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		384B59F329329008006A1977 /* BuildTinderAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildTinderAppApp.swift; sourceTree = "<group>"; };
 		384B59F529329008006A1977 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		384B59F72932900B006A1977 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		384B59FA2932900B006A1977 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		384B5A01293293E4006A1977 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3868136E296D80DF008CDC93 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
+		38681370296DAE94008CDC93 /* CardStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStack.swift; sourceTree = "<group>"; };
 		386A218E29616D1800022531 /* MessageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListView.swift; sourceTree = "<group>"; };
 		386A219029616DFC00022531 /* MessageListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListVM.swift; sourceTree = "<group>"; };
 		386A21922961852700022531 /* MessageRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRowView.swift; sourceTree = "<group>"; };
@@ -71,9 +80,12 @@
 		386A21962964949000022531 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		386A21982964976500022531 /* LikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeView.swift; sourceTree = "<group>"; };
 		386A219B2967062A00022531 /* PersonSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonSquare.swift; sourceTree = "<group>"; };
+		388513F4296B1E6000F5D650 /* CardImageScroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageScroller.swift; sourceTree = "<group>"; };
 		388AA04D296078CF0092DACD /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		388AA04F29607FF50092DACD /* ChatViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewHeader.swift; sourceTree = "<group>"; };
 		38BC21072933ED920068D2D3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		38C67DBA296C7ECC00893923 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		38C67DBC296C932200893923 /* FullScreenCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenCardView.swift; sourceTree = "<group>"; };
 		38E60BC9294A09C70049B700 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		38E60BE6294B91150049B700 /* RoundedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -175,6 +187,7 @@
 				386A219A2964977100022531 /* MatchesView */,
 				38E60BEB294B9BFC0049B700 /* HelperView */,
 				3840E3922968957900F416E6 /* Popups */,
+				38C67DB9296B3C6200893923 /* Home */,
 				38258F7F295F7224000C843C /* Model */,
 			);
 			path = BuildTinderApp;
@@ -199,6 +212,17 @@
 			path = MatchesView;
 			sourceTree = "<group>";
 		};
+		388513F6296B1E6700F5D650 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				388513F4296B1E6000F5D650 /* CardImageScroller.swift */,
+				38C67DBA296C7ECC00893923 /* CardView.swift */,
+				38C67DBC296C932200893923 /* FullScreenCardView.swift */,
+				38681370296DAE94008CDC93 /* CardStack.swift */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
 		38BC21092933F75C0068D2D3 /* MainTabBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +230,15 @@
 				384B5A01293293E4006A1977 /* MainView.swift */,
 			);
 			path = MainTabBar;
+			sourceTree = "<group>";
+		};
+		38C67DB9296B3C6200893923 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				388513F6296B1E6700F5D650 /* CardView */,
+				3842CEED296ED5A4008BC975 /* HomeView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		38E60BCB294A09EB0049B700 /* profile */ = {
@@ -221,6 +254,7 @@
 			isa = PBXGroup;
 			children = (
 				38E60BE6294B91150049B700 /* RoundedImage.swift */,
+				3868136E296D80DF008CDC93 /* CircleButtonView.swift */,
 			);
 			path = HelperView;
 			sourceTree = "<group>";
@@ -301,13 +335,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38C67DBD296C932200893923 /* FullScreenCardView.swift in Sources */,
 				381CAC2429606A8000AEF68D /* ChatManager.swift in Sources */,
 				386A218F29616D1800022531 /* MessageListView.swift in Sources */,
 				38086A55293352E40087DDEC /* TabBarButtonView.swift in Sources */,
+				3868136F296D80DF008CDC93 /* CircleButtonView.swift in Sources */,
 				386A219C2967062A00022531 /* PersonSquare.swift in Sources */,
 				38E60BE7294B91150049B700 /* RoundedImage.swift in Sources */,
 				3840E3912968957500F416E6 /* PurchasePopup.swift in Sources */,
 				388AA05029607FF50092DACD /* ChatViewHeader.swift in Sources */,
+				3842CEEE296ED5A4008BC975 /* HomeView.swift in Sources */,
 				380E185329673637002FF728 /* MatchesView.swift in Sources */,
 				386A21932961852700022531 /* MessageRowView.swift in Sources */,
 				38BC21082933ED920068D2D3 /* Extensions.swift in Sources */,
@@ -321,6 +358,7 @@
 				388AA04E296078CF0092DACD /* ChatView.swift in Sources */,
 				382B9E95295CC2680077CE34 /* ProfileSwipePromo.swift in Sources */,
 				384B5A02293293E4006A1977 /* MainView.swift in Sources */,
+				388513F5296B1E6000F5D650 /* CardImageScroller.swift in Sources */,
 				38062A8229699CFA00622CDB /* PurchaseOptionView.swift in Sources */,
 				384B59F429329008006A1977 /* BuildTinderAppApp.swift in Sources */,
 				38062A7F2969984D00622CDB /* PurchaseSwipePromo.swift in Sources */,
@@ -330,7 +368,9 @@
 				386A2195296493F200022531 /* UserManager.swift in Sources */,
 				38258F83295F76A1000C843C /* MessagePreview.swift in Sources */,
 				380E1851296732CE002FF728 /* TopPicksView.swift in Sources */,
+				38C67DBB296C7ECC00893923 /* CardView.swift in Sources */,
 				386A21972964949000022531 /* User.swift in Sources */,
+				38681371296DAE94008CDC93 /* CardStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
