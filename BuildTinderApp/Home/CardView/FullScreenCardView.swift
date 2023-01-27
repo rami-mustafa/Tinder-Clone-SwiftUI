@@ -5,6 +5,8 @@ struct FullScreenCardView: View {
     
     @Binding var fullscreenMode: Bool
     
+    @State private var showingAlert = false
+    
     let screen = UIScreen.main.bounds
     
     @EnvironmentObject var userMng: UserManager
@@ -39,7 +41,7 @@ struct FullScreenCardView: View {
                             }
                             .opacity(0.75)
                             
-                            Text("\(person.distance) miles away ")
+                            Text("\(person.distance) mil uzakta")
                                 .font(.system(size: 18 , weight: .light ))
                                 .opacity(0.75)
                         }
@@ -73,21 +75,29 @@ struct FullScreenCardView: View {
                     VStack(spacing: 24) {
                         Button(action: { showActionSheet()}, label: {
                             VStack{
-                                Text("SHARE \(person.name.uppercased())'s PROFILE")
+                                Text("  \(person.name.uppercased())'adlı kişiyi paylaş")
                                     .font(.system(size: 16 , weight: .medium))
                                 
-                                Text("SEE WHAT A FRIEND THINKS")
+                                Text("Arkadaşına fikrini sor")
                                     .font(.system(size: 14 , weight: .medium))
                             }
                             .opacity(0.9)
                         })
-                        Button(action: { }, label: {
-                            Text("REPORT \(person.name.uppercased())")
-                                .font(.system(size: 18 , weight: .medium))
-                                .foregroundColor(.black)
-                                .opacity(0.75)
-
-                        })
+                        Button("\(person.name.uppercased()) adlı kişiyi bildir") {
+                                   showingAlert = true
+                               }
+                               .alert("Emin misiniz ", isPresented: $showingAlert) {
+                                   HStack{
+                                   Button("Evet", role: .cancel) { }
+                                   }
+                               }
+//                        Button(action: { }, label: {
+//                            Text("\(person.name.uppercased()) adlı kişiyi bildir")
+//                                .font(.system(size: 18 , weight: .medium))
+//                                .foregroundColor(.black)
+//                                .opacity(0.75)
+//
+//                        })
                     }
                     Spacer().frame(height: 200)
                }
