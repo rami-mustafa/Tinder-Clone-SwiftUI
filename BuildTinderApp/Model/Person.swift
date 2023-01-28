@@ -31,7 +31,7 @@ extension Person {
         bio:"Where I am declaring the individual cells I want to be shown for the first section when I only use [productName] in my sectionData then this compiles without any issues",
         age: 22,
         distance: 21,
-        bioLong: "Where I am declaring the individual cells I want to be shown for the first section when I only use [productName] in my sectionData then this compiles without any issues"
+        bioLong: "Türkiye'den tutkulu bir iOS geliştiricisi,"
     )
     static let example2 = Person(
         name: "Ayşe",
@@ -42,7 +42,7 @@ extension Person {
             URL(string: "https://picsum.photos/200/323")!,
             URL(string: "https://picsum.photos/200/324")!,
         ],
-        bio: "i really love dogs",
+        bio: "köpekleri gerçekten seviyorum",
         age: 23,
         distance: 32,
         bioLong: "Where I am declaring the individual cells I want to be shown for the first section when I only use [productName] in my sectionData then this compiles without any issues"
@@ -58,7 +58,7 @@ extension Person {
                 URL(string: "https://picsum.photos/200/327")!,
                 URL(string: "https://picsum.photos/200/328")!,
             ],
-            bio:"this is my bio",
+            bio:"bu benim biyografim",
             age: 26,
             distance: 33,
             bioLong: "Where I am declaring the individual cells I want to be shown for the first section when I only use [productName] in my sectionData then this compiles without any issues"
@@ -72,7 +72,7 @@ extension Person {
                 URL(string: "https://picsum.photos/200/331")!,
                 URL(string: "https://picsum.photos/200/332")!,
             ],
-            bio:"this is my bio",
+            bio:"bu benim biyografim",
             age: 32,
             distance: 19,
             bioLong: "Where I am declaring the individual cells I want to be shown for the first section when I only use [productName] in my sectionData then this compiles without any issues"
@@ -86,10 +86,10 @@ extension Person {
                 URL(string: "https://picsum.photos/200/335")!,
                 URL(string: "https://picsum.photos/200/336")!,
             ],
-            bio:"this is my bio",
+            bio:"resim yapmayı çok severim  gnjladlngla dangagşna şadbngşaga dşangdiangad idnagiaigad iadgbaidgd da gdiag ib aig aid rami",
             age: 24,
             distance: 20,
-            bioLong: "Where I am declaring the individual cells I want to be shown for the first section when I only use [productName] in my sectionData then this compiles without any issues"
+            bioLong: "fanfbglaegnla agnagagş adgabgşa algbadjgjş adbgşdabgd adbjgşadgbd şabdaj şadb "
         ),
         Person(
             name: "ayşe",
@@ -100,7 +100,7 @@ extension Person {
                 URL(string: "https://picsum.photos/200/339")!,
                 URL(string: "https://picsum.photos/200/340")!,
                        ],
-            bio:"this is my bio",
+            bio:"hobilerim : spoe, yürüş , gezmek ",
             age: 24,
             distance: 29,
             bioLong: "Where I am declaring the individual cells I want to be shown for the first section when I only use [productName] in my sectionData then this compiles without any issues"
@@ -108,11 +108,10 @@ extension Person {
         Person(
             name: "buse",
             imageURLS: [
-                URL(string: "https://picsum.photos/200/306")!,
                 URL(string: "https://picsum.photos/200/341")!,
                 URL(string: "https://picsum.photos/200/342")!,
             ],
-            bio:"this is my bio",
+            bio:"hayvanları severim ",
             age: 24,
             distance: 26,
             bioLong: "Where I am declaring the individual cells I want to be shown for the first section  when I only use [productName] in my sectionData then this compiles without any issues"
@@ -125,11 +124,64 @@ extension Person {
                 URL(string: "https://picsum.photos/200/344")!,
                 URL(string: "https://picsum.photos/200/345")!,
             ],
-            bio:"this is my bio",
+            bio:"Türkiye'den tutkulu bir iOS geliştiricisi,",
             age: 24,
             distance: 33,
-            bioLong: "Where I am declaring the individual cells I want to be shown for the first section  when I only use [productName] in my sectionData then this compiles without any issues"
-        )
+            bioLong: "Türkiye'den tutkulu bir iOS geliştiricisi,"
+        ),
+        
+        Person(
+            name: "mehmet",
+            imageURLS: [
+                URL(string: "https://picsum.photos/200/346")!,
+                URL(string: "https://picsum.photos/200/347")!,
+                URL(string: "https://picsum.photos/200/348")!,
+                URL(string: "https://picsum.photos/200/349")!,
+            ],
+            bio:"hobilerim kitap okumak müzik yapma gezmek",
+            age: 24,
+            distance: 33,
+            bioLong: "hobilerim kitap okumak müzik yapma gezmek"
+        ),
+        Person(
+            name: "merve",
+            imageURLS: [
+                URL(string: "https://picsum.photos/200/350")!,
+                URL(string: "https://picsum.photos/200/351")!,
+                URL(string: "https://picsum.photos/200/352")!,
+                URL(string: "https://picsum.photos/200/353")!,
+            ],
+            bio:"Türkiye'den tutkulu bir react native geliştiricisi,",
+            age: 24,
+            distance: 33,
+            bioLong: "Türkiye'den tutkulu bir react native geliştiricisi,"
+        ),
+        Person(
+            name: "beyza",
+            imageURLS: [
+                URL(string: "https://picsum.photos/200/354")!,
+                URL(string: "https://picsum.photos/200/355")!,
+                URL(string: "https://picsum.photos/200/356")!,
+                URL(string: "https://picsum.photos/200/357")!,
+            ],
+            bio:"doğa dostu",
+            age: 24,
+            distance: 33,
+            bioLong: "doğa dostu"
+        ),
+        Person(
+            name: "enes",
+            imageURLS: [
+                URL(string: "https://picsum.photos/200/358")!,
+                URL(string: "https://picsum.photos/200/359")!,
+                URL(string: "https://picsum.photos/200/360")!,
+                URL(string: "https://picsum.photos/200/361")!,
+            ],
+            bio:"hayvanları seven bir insan,",
+            age: 24,
+            distance: 33,
+            bioLong: "hayvanları seven bir insan,"
+        ),
     ]
 
 }
