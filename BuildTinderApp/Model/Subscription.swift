@@ -13,8 +13,8 @@ struct Subscription: Identifiable {
     
     
     enum TagLine: String {
-        case mostPopular = "MOST POPULAR"
-        case bestValue =    " BEST VALUE"
+        case mostPopular = "EN POPÜLER"
+        case bestValue =    "EN İYİ DEĞERİ"
         case none
         
     }
