@@ -20,7 +20,7 @@ extension User  {
         age: 33,
         jobTitle:"Software Engineer",
         goldSubsceiber: false,
-        profileTip: "Photo Tip: Make waves with a beach photo and get more likes",
+        profileTip: "fotoğraf ipucu :  güzel bir cafede çekilmiş bir fotoğraf  ",
         imageURLS : [URL(string: "https://picsum.photos/200/320")!]
      
     )
