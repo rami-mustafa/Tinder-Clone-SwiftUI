@@ -15,25 +15,25 @@ struct ProfileSwipePromo: View {
             TabView{
                 VStack(spacing: 9){
                     Spacer()
-                    Text("Get Tinder Gold")
+                    Text("Tinder Dold Al")
                         .font(.system(size: 26, weight: .semibold))
-                       Text("See who likes You & more!")
+                       Text("seni kimler beğendiğin ve daha fazlası ")
                 }
                 .padding(.bottom, 64)
                 
                 VStack(spacing: 9){
                     Spacer()
-                    Text("Get Matches faster")
+                    Text("Tinder Platinum")
                         .font(.system(size: 26, weight: .semibold))
-                       Text("Boost your profile once a month!")
+                       Text("tinder deneyimini en üst seviyeye çıkar")
                 }
                 .padding(.bottom, 64)
                 
                 VStack(spacing: 9){
                     Spacer()
-                    Text("Increace Your Chances")
+                    Text("Beğen Hakların Bitti")
                         .font(.system(size: 26, weight: .semibold))
-                       Text("Boost your profile once a month!")
+                       Text("seni kimlerin beğendiğini ve çok daha fazlasını keşfet")
                 }
                 .padding(.bottom, 64)
                 
