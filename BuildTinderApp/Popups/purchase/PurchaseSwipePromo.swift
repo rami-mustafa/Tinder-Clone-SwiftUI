@@ -18,33 +18,33 @@ struct PurchaseSwipePromo: View {
                     .aspectRatio(contentMode: .fit)
                     .frame(height: 75)
                 
-                Text( "25 people already like you!")
+                Text( "25 kişi zaten seni beğeniyor!")
                     .font(.system(size: 18 , weight: .semibold))
-                Text( "Match with them instantly")
+                Text( "Onlarla anında eşleştirin")
             }
             
             VStack ( spacing: 10) {
-                Image(systemName: "thermometer.sun.fill")
+                Image(systemName: "paperplane.circle.fill")
                     .renderingMode(.original)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(height: 75)
                 
-                Text( "25 people already like you!")
+                Text( "Eşleşmeden önce mesaj gönder!")
                     .font(.system(size: 18 , weight: .semibold))
-                Text( "Match with them instantly")
+                Text( "Gönderdiğin her super like'a ücretsiz bir mesaj ekle")
             }
             
             VStack ( spacing: 10) {
-                Image(systemName: "thermometer.sun.fill")
+                Image(systemName: "calendar.badge.plus")
                     .renderingMode(.original)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(height: 75)
                 
-                Text( "25 people already like you!")
+                Text( "Seni kimlerin beğendiğini gör")
                     .font(.system(size: 18 , weight: .semibold))
-                Text( "Match with them instantly")
+                Text( "seni beğenen kişilerle anında eşleş")
             }
             
         }

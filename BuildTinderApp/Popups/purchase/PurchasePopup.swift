@@ -59,6 +59,7 @@ struct PurchasePopup: View {
                             RoundedRectangle(cornerRadius: 45)
                                 .foregroundColor(.yellow)
                             
+                            Text("DEVAM ET")
                                 .foregroundColor(.white)
                                 .font(.system(size: 20, weight: .heavy))
                         }
@@ -68,7 +69,7 @@ struct PurchasePopup: View {
                     .padding(.top, 12)
                     
                     Button(action: {isVisible = false }, label: {
-                            Text( "NO THANKS")
+                            Text( "HAYIR TEŞEKKÜRLER")
                             .foregroundColor(.textPrimary)
                             .font(.system(size: 20, weight: .heavy))
                     })
@@ -85,11 +86,11 @@ struct PurchasePopup: View {
                 
                 VStack (spacing: 4){
                     
-                    Text("fsdafaasdfsagsfag" )
+                    Text("Yinelenen faturalandırma, istediğiniz zaman iptal edin.")
                         .foregroundColor(.white)
                         .font(.system(size: 14, weight: .semibold))
                     
-                    Text("fsdacvnajdfjkvnbaşdbfvfadbvşadfhdbşvadfvşakjfdbnkjdfbakdbfdfkdfbkfdbkdfdbdkfbkdfkkdfbkdfkbkdfvbfdbvdbdkbddbdbdkbkdbdkbkkdbkbddkbbkddbkdbkbdfbvbadfbvkfkvbfvalbadhvvfvha")
+                    Text("Bu, tüm abonelik sayfalarında bulunan yasal metni temsil eden bir dizi örnek metindir. Orijinal başvuruya saygı duyarak, yasal metinlerini burada kelimesi kelimesine kopyalamayacağız.")
                         .foregroundColor(Color.white.opacity(0.5))
                         .font(.system(size: 14, weight: .semibold))
                         .multilineTextAlignment(.center)
